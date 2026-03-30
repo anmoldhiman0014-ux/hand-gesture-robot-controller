@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+env/
+.env/
+.venv/
+
+# ML artifacts (large files)
+gesture_data.csv
+models/*.pkl
+models/*.joblib
+
+# Misc
+.DS_Store
+Thumbs.db
+*.log
